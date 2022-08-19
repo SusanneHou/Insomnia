@@ -1,0 +1,34 @@
+_id: req_5e23db976a0342d380732de776ae075d
+type: Request
+parentId: fld_fbc4d3b1af564f319c24b08f665fffa5
+modified: 1660838228406
+created: 1660820390871
+url: http://localhost:5177/api/Notifications
+name: Test Price Change Webhook
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	  "Publisher": "PanAus",
+    		"Secret": "E0D8547B-56B8-485F-AC20-71B920C86546",
+        "FlightCode": "QF10",
+    		"OldPrice": 1200.00,
+    		"NewPrice": 100.00,
+    		"WebhookType": "FlightChange"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b260dd5b55aa4ebea40bf3f585ab90b5
+authentication: {}
+metaSortKey: -1660820390871
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: false
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

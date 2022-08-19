@@ -1,0 +1,30 @@
+_id: req_018d8f46971b4cd89113bff9a8b9b3ec
+type: Request
+parentId: fld_fbc4d3b1af564f319c24b08f665fffa5
+modified: 1660838959887
+created: 1660814863651
+url: https://localhost:7193/api/WebhookSubscription/
+name: Create new webhook
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "WebHookURI": "http://localhost:5177/api/Notifications",
+        "WebhookType": "pricechange"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0b0dcefe9ea544bc8f05aa2e677d35ac
+authentication: {}
+metaSortKey: -1660658004127
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: false
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: false
+settingFollowRedirects: global

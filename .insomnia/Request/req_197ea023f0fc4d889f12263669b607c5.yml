@@ -1,0 +1,30 @@
+_id: req_197ea023f0fc4d889f12263669b607c5
+type: Request
+parentId: fld_fbc4d3b1af564f319c24b08f665fffa5
+modified: 1660838895488
+created: 1660658004152
+url: http://localhost:5012/api/WebhookSubscription/
+name: Create new webhook
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "WebHookURI": "test2",
+        "WebhookType": "test"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0b0dcefe9ea544bc8f05aa2e677d35ac
+authentication: {}
+metaSortKey: -1660658004152
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: false
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: false
+settingFollowRedirects: global

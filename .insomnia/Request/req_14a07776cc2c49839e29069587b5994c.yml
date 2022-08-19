@@ -1,0 +1,30 @@
+_id: req_14a07776cc2c49839e29069587b5994c
+type: Request
+parentId: fld_fbc4d3b1af564f319c24b08f665fffa5
+modified: 1660838406566
+created: 1660751519188
+url: http://localhost:5012/api/Flights/
+name: Create Flight
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "FlightCode": "QF10",
+        "Price": 120.20
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_81b91760db2d4245aa778cba35ebfae0
+authentication: {}
+metaSortKey: -1660751519188
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

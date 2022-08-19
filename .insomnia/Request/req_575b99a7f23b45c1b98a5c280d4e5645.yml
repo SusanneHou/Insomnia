@@ -1,0 +1,30 @@
+_id: req_575b99a7f23b45c1b98a5c280d4e5645
+type: Request
+parentId: fld_fbc4d3b1af564f319c24b08f665fffa5
+modified: 1660838463859
+created: 1660814826231
+url: https://localhost:7193/api/Flights/1
+name: Update FlightDetails
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "FlightCode": "QF10",
+        "Price": 2000.20
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f06c1324fb2b4c7bb0fa2970700ab79f
+authentication: {}
+metaSortKey: -1660752145640.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: true
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_afbe013f00264f038b876643cab61d59
+type: Request
+parentId: fld_fbc4d3b1af564f319c24b08f665fffa5
+modified: 1660838227351
+created: 1660744618018
+url: http://localhost:5012/api/WeookSubscription/726bf5bd-71eb-4f5a-a769-c39fd8830a41
+name: Get subscription by secret
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "WebHookURI": "test2",
+        "WebhookType": "test"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0b0dcefe9ea544bc8f05aa2e677d35ac
+authentication: {}
+metaSortKey: -1660658004102
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: false
+settingFollowRedirects: global
